@@ -51,7 +51,6 @@ section {
     color: rgb(23, 155, 41);
     text-align: center;
     padding: 100px 20px;
-    
 }
 
 #home h1 {
@@ -99,11 +98,66 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-
 footer {
     text-align: center;
     padding: 10px;
     background-color: #97064a;
     color: white;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #home h1 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #home {
+        padding: 50px 10px;
+    }
+
+    #home h1 {
+        font-size: 1.5em;
+    }
+
+    #home p {
+        font-size: 1em;
+    }
+}
+
