@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('gallary/P.jpg');
+    background-size: cover;
+    color: #2e1a77;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: rgb(23, 155, 41);
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(25, 139, 184);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3e0969;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#home {
+    background: url('gallary/z.webp') no-repeat center center/cover;
+    color: rgb(23, 155, 41);
+    text-align: center;
+    padding: 100px 20px;
+    
+}
+
+#home h1 {
+    font-size: 3em;
+    color: rgb(23, 155, 41); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0; 
+    padding: 10px;
+}
+
+#home p {
+    font-size: 1.5em;
+    color: #1e4981; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+    margin-top: 10px; 
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    padding: 10px 0;
+}
+
+#gallery {
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #97064a;
+    color: white;
+}
